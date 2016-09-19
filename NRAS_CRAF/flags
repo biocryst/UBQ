@@ -1,0 +1,8 @@
+-database /usr/local/xray/rosetta/rosetta_database
+-relax:jump_move
+-s nras_craf.pdb
+-in:file:fullatom
+-mute core.util.prof ## dont show timing info
+-mute core.io.database
+-nstruct 1000
+-out:pdb

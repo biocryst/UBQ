@@ -1,0 +1,1 @@
+/usr/local/xray/rosetta/rosetta_source/bin/relax.linuxgccrelease flags

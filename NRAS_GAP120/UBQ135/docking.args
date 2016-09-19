@@ -1,0 +1,20 @@
+-database /usr/local/xray/rosetta/rosetta_database
+-extra_res_fa /usr/local/xray/rosetta/rosetta_database/chemical/residue_type_sets/fa_standard/residue_types/sidechain_conjugation/LYX.params
+-UBQpdb ubq.pdb
+-GTPasepdb nras_gap120.pdb
+-GTPase_residue 124
+-nstruct 300
+-scorefilter 0
+-SASAfilter 1000
+-n_tail_res 3
+-AnchoredDesign::refine_temp 0.8
+-AnchoredDesign::refine_repack_cycles 100
+-AnchoredDesign::refine_cycles 20000
+-run::min_type dfpmin_armijo
+-nblist_autoupdate true
+-packing::repack_only true
+-generic_job_name ubq_nras_gap
+-mute core.pack.task protocols.toolbox.PoseMetricCalculators.NeighborsByDistanceCalculator core.util.prof
+-ex1
+-ex2aro
+-extrachi_cutoff 10

@@ -1,0 +1,1 @@
+/usr/local/xray/rosetta/rosetta_source/bin/UBQ_Gp_LYX-Cterm.linuxgccrelease @docking.args
